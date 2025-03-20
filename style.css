@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Rubik;
+}
+
+header{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    font-family: 'Rubik';
+    font-size: 2rem;
+    color: #D5EAF9;
+    text-decoration: none;
+}
+
+.navegacao{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: flex-end;
+    float: right;
+    width: 900px;
+}
+
+
+/* font-sizes */
+.titulo{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.subtitulo{
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    height: 6rem;
+}
+
+.texto{
+    font-size: 2rem;
+}
+
+.texto-pequeno{
+    font-size: 1.3rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colunas div img{
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.coluna-esquerda{
+    margin-left: 200px;
+    width: 400px;
+}
+
+.coluna-direita{
+    text-align: center;
+    width: 500px;
+    margin-right: 200px;
+}
+
+section, footer{
+    padding: 20px 50px;
+}
+
+.background-dark{
+    background-color: #15364C;
+}
+
+.dark-color{
+    color: #15364C;
+}
+
+.light-color{
+    color: #fff;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.background-email{
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.background-nome{
+    background-color: #15364C;
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: #fff;
+    width: 8rem;
+}
+
+.diferencial{
+    background-color: #15364C;
+    width: 20rem;
+    height: 12rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.membro-equipe{
+    text-align: center;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
